@@ -1,0 +1,52 @@
+.blog{
+	min-height: 95%;
+
+	& .row {
+		margin-bottom: 40px;
+	}
+
+	&__item{
+
+		
+		margin-bottom: 30px;
+
+
+
+		&__content{
+			h2{
+				text-align: center;
+			}
+			@mixin atMedium{
+				height: 200px;
+
+				h2{
+				text-align: left;
+			}
+			}
+		}
+		 
+		&__image-container{
+
+
+			img{
+				width: 250px;
+				height: 250px;
+				margin:0 auto;
+				display:block;	
+				@mixin atMedium{
+				
+				width: 150px;
+				height: 150px;	
+				transform: translateY(25%);
+				}	
+				@mixin atLarge{
+				
+				width: 250px;
+				height: 250px;	
+				transform: none;
+				}
+
+			}
+		}
+	}
+}

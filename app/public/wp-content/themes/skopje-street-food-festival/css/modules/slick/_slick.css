@@ -1,0 +1,31 @@
+button.slick-next.slick-arrow{
+	z-index: 2;
+	transform: scale(2);
+    right: 50px;
+}
+button.slick-prev.slick-arrow{
+	z-index: 2;
+	transform: scale(2);
+    left: 50px;
+}
+
+.slick-slide {
+	max-height: 50vh;
+	margin-bottom: 40px;
+	@mixin atMedium{
+		margin-bottom: 0;
+   		
+		margin-top: 69px;
+	max-height: 70vh;
+	}
+}
+
+.slick-slide img {
+	width:100vw;
+	height: 50vh;
+	@mixin atMedium{
+		height: 70vh;
+	  
+	   
+	}
+}

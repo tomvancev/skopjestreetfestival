@@ -1,0 +1,22 @@
+.blog-card{
+	border: 2px solid $mainBlack;
+	padding:20px;
+	margin-bottom: 1rem;
+	&__headline{
+		h2{
+			margin:1rem;
+			font-size:1.6rem;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+
+	&__content{
+		font-weight: 300;
+		font-size:0.9rem;
+		line-height: 1.4;
+		letter-spacing: 1.5;
+	}
+
+
+}
